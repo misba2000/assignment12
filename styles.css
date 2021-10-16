@@ -1,0 +1,166 @@
+*
+{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.picture
+{
+    padding: 30px;
+   
+}
+.picture2
+{
+    width: 100%;
+    height: 35vh;
+}
+.para1
+{
+    color: hsl(0, 36%, 70%);
+    font-size: 40px;
+    text-align: center;
+}
+.para2
+{
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+.para3
+{
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+.para4
+{
+    color: hsl(0, 36%, 70%);
+    font-family: Josefin+Sans;
+    text-align: center;
+}
+.input1
+{
+    padding-left: 40px;
+    
+    position: relative;
+}
+.parent
+{
+ padding-left: 20px;
+ padding-right: 130px;
+ padding-top: 15px;
+ padding-bottom: 15px;
+ border-radius: 30px;
+
+}
+.button
+{
+     position: absolute;
+    
+    right: 0; 
+    
+    border-radius: 30px;
+    padding: 17px 30px;
+    background: linear-gradient(to right, hsl(0, 55%, 83%) ,hsl(0, 74%, 74%));
+    font-size: 15px;
+    color: white;
+    border:  hsl(0, 74%, 74%);
+  
+    
+ } 
+::-webkit-input-placeholder
+{
+
+    color: hsl(0, 36%, 70%);
+}
+
+/* ==> Desktop View <== */
+
+
+@media screen and (min-width: 500px)
+{
+    .picture, .picture2, .para1, .para2, .para3, .para4, .input1, .parent, .button {
+        display: none;
+
+    }
+
+}
+
+
+@media screen and (max-width: 499px) {
+
+    .picturehero,.picturehero2,.parahero1,.parahero2,.parahero3,.parahero4,.inputhero1,.parent1,.button1 {
+        display: none;
+        
+    }
+    
+}
+
+    .picturehero2
+    {
+        padding-left: 120px;
+        padding-top: 15px;
+    }
+    .picturehero{
+        width: 40%;
+        height: 100vh;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .parahero1
+    {
+        color: hsl(0, 36%, 70%);
+        padding-left: 120px;
+        padding-top: 120px;
+        font-size: 50px;
+    }
+    .parahero2
+    {
+        padding-left: 120px;
+        font-size: 50px;
+    }
+    .parahero3
+    {
+        padding-left: 120px;
+        font-size: 50px;
+    }
+    .parahero4
+    {
+        padding-left: 120px;
+        color: hsl(0, 36%, 70%);
+        font-family: Josefin+Sans;
+    
+    }
+    .inputhero1
+    {
+        padding-left: 120px;
+        position: relative;
+    }
+    .parent1
+    {
+     padding-left: 20px;
+     padding-right: 220px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     border-radius: 30px;
+    
+    }
+    .button1
+    {
+         position: absolute;
+        
+        right: 0; 
+        
+        border-radius: 30px;
+        padding: 12px 30px;
+        background: linear-gradient(to right, hsl(0, 55%, 83%) ,hsl(0, 74%, 74%));
+        font-size: 15px;
+        color: white;
+        border:  hsl(0, 74%, 74%);
+      
+        
+     } 
+
+    
+    
