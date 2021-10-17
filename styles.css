@@ -3,8 +3,8 @@
     margin: 0;
     box-sizing: border-box;
 }
-*{
-      background-color: hsl(0, 18%, 97%);;
+.back{
+      background-color: hsl(0, 30%, 95%);;
 }
 .picture
 {
@@ -37,7 +37,7 @@
 .para4
 {
     color: hsl(0, 36%, 70%);
-    font-family: Josefin+Sans;
+    
     text-align: center;
 }
 .input1
@@ -75,13 +75,17 @@
 
     color: hsl(0, 36%, 70%);
 }
+.ff
+{
+    font-family: Josefin+Sans;
+}
 
 /* ==> Desktop View <== */
 
 
 @media screen and (min-width: 500px)
 {
-    .picture, .picture2, .para1, .para2, .para3, .para4, .input1, .parent, .button {
+    .picture, .picture2, .para1, .para2, .para3, .para4, .input1, .parent, .button,.back {
         display: none;
 
     }
@@ -163,9 +167,9 @@
       
         
      } 
-     body{
-         background-image: url(./back.jpeg);
-     }
-
+      body
+      {
+          background-image: url(./back.jpeg);
+      }
     
     
